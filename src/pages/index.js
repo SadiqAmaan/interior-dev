@@ -1,10 +1,11 @@
-import HomePage from "@/Components/Home";
+import React from 'react'
 
-
-export default function Home() {
+const index = () => {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <HomePage/>
-    </main>
-  );
+    <div>
+      Home
+    </div>
+  )
 }
+
+export default index
