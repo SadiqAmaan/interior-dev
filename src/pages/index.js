@@ -1,12 +1,13 @@
-import Navbar from '@/Components/Global/Navbar/Navbar'
-import React from 'react'
+import Header from "@/Components/Global/Navbar/Header";
+import React from "react";
 
 const index = () => {
   return (
-    <div>
-      <Navbar/>
-    </div>
-  )
-}
+   <div className="main-body">
+    <Header />
+    <div className="main"></div>
+   </div>
+  );
+};
 
-export default index
+export default index;
