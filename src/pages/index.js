@@ -1,4 +1,4 @@
-import Banner from "@/Components/Global/Navbar/Banner/Banner";
+import Banner from "@/Components/Banner/Banner";
 import Header from "@/Components/Global/Navbar/Header";
 import React from "react";
 
