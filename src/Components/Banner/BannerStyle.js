@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const BannerWrapper = styled.main`
   padding: 2rem;
@@ -9,7 +9,8 @@ export const BannerWrapper = styled.main`
     border-radius: 1rem;
     overflow: hidden;
     margin: 1rem;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 2px solid gold;
+    border-radius: 2em;
 
     img {
       width: 100%;
