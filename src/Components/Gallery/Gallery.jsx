@@ -1,28 +1,38 @@
 // src/component/Gallery/Gallery.js
 
-import React from 'react';
-import Card from '../Card/Card';
-import { GalleryWrapper, Title } from './GalleryStyle';
+import React, { useEffect, useState } from "react";
+import Card from "../Card/Card";
+import { GalleryWrapper, Title } from "./GalleryStyle";
+import links from "../../Utils/links.json";
 
 const Gallery = () => {
+  const [imagesData, setimagesData] = useState([]);
+
+  useEffect(() => {
+    setimagesData(links?.data);
+  }, [links]);
 
   const images = [
-    '/images/Banner.jpg',
-    '/images/Banner.jpg',
-    '/images/Banner.jpg',
-    '/images/Banner.jpg',
-    '/images/Banner.jpg',
-    '/images/Banner.jpg',
+    "/images/Banner.jpg",
+    "/images/Banner.jpg",
+    "/images/Banner.jpg",
+    "/images/Banner.jpg",
+    "/images/Banner.jpg",
+    "/images/Banner.jpg",
   ];
 
   return (
     <>
-      <GalleryWrapper>
-        <Title>Title 1</Title>
-        {images.map((imageSrc, index) => (
-          <Card key={index} imageSrc={imageSrc} />
-        ))}
-      </GalleryWrapper>
+      {imagesData?.map((data) => {
+        return (
+          <GalleryWrapper>
+            <Title>{data?.title}</Title>
+            {data?.links?.map((imageSrc, index) => (
+              <Card key={index} imageSrc={imageSrc} />
+            ))}
+          </GalleryWrapper>
+        );
+      })}
     </>
   );
 };

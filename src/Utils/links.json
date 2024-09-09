@@ -1,0 +1,77 @@
+{
+  "data": [
+    {
+      "title": "Cieling & Bathroom",
+      "links": [
+        "/images/ceiling&Wall/img1.jpg",
+        "/images/ceiling&Wall/img2.jpg",
+        "/images/ceiling&Wall/img3.jpg",
+        "/images/ceiling&Wall/img4.jpg",
+        "/images/ceiling&Wall/img5.jpg",
+        "/images/ceiling&Wall/img6.jpg",
+        "/images/ceiling&Wall/img7.jpg",
+        "/images/ceiling&Wall/img8.jpg",
+        "/images/ceiling&Wall/img9.jpg",
+        "/images/ceiling&Wall/img10.jpg"
+      ]
+    },
+    {
+      "title": "Drawing Room",
+      "links": [
+        "/images/drawingRoom/img1.jpg",
+        "/images/drawingRoom/img2.jpg",
+        "/images/drawingRoom/img3.jpg",
+        "/images/drawingRoom/img4.jpg",
+        "/images/drawingRoom/img5.jpg",
+        "/images/drawingRoom/img6.jpg",
+        "/images/drawingRoom/img7.jpg",
+        "/images/drawingRoom/img8.jpg",
+        "/images/drawingRoom/img9.jpg",
+        "/images/drawingRoom/img10.jpg",
+        "/images/drawingRoom/img11.jpg",
+        "/images/drawingRoom/img12.jpg"
+      ]
+    },
+    {
+      "title": "Kitchen",
+      "links": [
+        "/images/kitchen/img1.jpg",
+        "/images/kitchen/img2.jpg",
+        "/images/kitchen/img3.jpg",
+        "/images/kitchen/img4.jpg",
+        "/images/kitchen/img5.jpg",
+        "/images/kitchen/img6.jpg"
+      ]
+    },
+    {
+      "title": "Bedroom",
+      "links": [
+        "/images/bedroom/img1.jpg",
+        "/images/bedroom/img2.jpg",
+        "/images/bedroom/img3.jpg",
+        "/images/bedroom/img4.jpg",
+        "/images/bedroom/img5.jpg",
+        "/images/bedroom/img6.jpg",
+        "/images/bedroom/img7.jpg",
+        "/images/bedroom/img8.jpg",
+        "/images/bedroom/img9.jpg",
+        "/images/bedroom/img10.jpg",
+        "/images/bedroom/img11.jpg"
+      ]
+    },
+    {
+      "title": "Bathroom",
+      "links": [
+        "/images/bathroom/img1.jpg",
+        "/images/bathroom/img2.jpg",
+        "/images/bathroom/img3.jpg",
+        "/images/bathroom/img4.jpg",
+        "/images/bathroom/img5.jpg",
+        "/images/bathroom/img6.jpg",
+        "/images/bathroom/img7.jpg",
+        "/images/bathroom/img8.jpg",
+        "/images/bathroom/img9.jpg"
+      ]
+    }
+  ]
+}

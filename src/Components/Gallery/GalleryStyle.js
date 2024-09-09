@@ -6,7 +6,7 @@ export const GalleryWrapper = styled.div`
   display: flex;
   gap: 25px; /* Adjust the gap between cards as needed */
   flex-wrap: wrap;
-  justify-content: center;
+  // justify-content: center;
   padding: 25px;
 `;
 
