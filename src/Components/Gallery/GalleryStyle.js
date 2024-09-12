@@ -1,12 +1,12 @@
 // src/component/Gallery/GalleryStyles.js
 
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const GalleryWrapper = styled.div`
   display: flex;
   gap: 25px; /* Adjust the gap between cards as needed */
   flex-wrap: wrap;
-  // justify-content: center;
+  justify-content: center;
   padding: 25px;
 `;
 
@@ -15,9 +15,12 @@ export const Title = styled.h1`
   width: 100%;
   margin-bottom: 25px;
   font-size: 2rem;
-  color: #fff;
+  background: white;
+  padding: 0.3em;
+  border-radius: 0.5em;
+  color: #000000;
   font-weight: bold;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 
   /* Responsive styles */
   @media (max-width: 1200px) {
